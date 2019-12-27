@@ -3,14 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="title" content="网站导航"/>
-		<meta name="keywords" content="网站导航"/>
-		<meta name="description" content="网站导航"/>
-		<title>导航汇总</title>
+		<meta name="title" content="Buffoon"/>
+		<meta name="keywords" content="Buffoon"/>
+		<meta name="description" content="Buffoon"/>
+		<link rel="shortcut icon" href="images/logo.ico">
+		<title>Buffoon</title>
 		<style>
+		body{
+   		background:url(images/background.jpg) no-repeat center center;
+   		background-size:cover;
+   		background-attachment:fixed;
+   		background-color:#8e804b;
+   		background-blend-mode: multiply;
+		}
 		#header {
-   		background-color:#4d1018;
-   		color:white;
+   		color:#baccd9;
    		text-align:center;
   		padding:0px;
   		position:fixed;
@@ -19,10 +26,9 @@
   		top:0%; 
   		width:100%;
   		font-weight: bold;
-        font-size: 36px;
-		}
+        font-size: 30px;
+		}		
 		#sectionright {
-    	background-color:#4d1018;
    		color:white;
    		text-align:center;
   		padding:0%;
@@ -33,7 +39,6 @@
   		height:55%; 	 
 		}
 		#sectionleft {
-		background-color:#4d1018;
    		color:white;
    		text-align:center;
   		padding:0%;
@@ -44,7 +49,6 @@
   		height:55%;	 	 
 		}
 		#footer {
-    	background-color:#4d1018;
     	color:white;
     	text-align:center;
    		padding:0%;
@@ -54,30 +58,68 @@
   		bottom:0%; 
   		width:100%;	 	 
 		}
+		a:link{color:white; text-decoration:none;}
+        a:visited{color:white;text-decoration:none;}
+        table{
+		border-collapse: collapse;
+		border-spacing: 0;
+		table-layout: fixed;
+		align-content: right;
+		}
 		</style>
 	</head>
 
 	<body>
 		<div id="header">
-			<h1>导航</h1>
+			<h1>Buffoon</h1>
+			<a>科技与艺术的碰撞</a>
 		</div>
 
 		<div id="sectionleft">
-			<a href="http://www.lifeofbuffoon.cn/ppt/index.html">
-				<img src="1.png" alt="" style="height:150px;">
-			</a>
+		<table width="80%" height="80%" border="0" align="left">
+			<tr>
+				<td align="right">
+					<a href="https://blog.csdn.net/mrbuffoon"><img src="images/blog.png" width="60px" height="70px"/></a>
+				</td>
+				<td align="right">
+					<a href="https://github.com/Mrbuffoon"><img src="images/github.png" width="60px" height="70px"/></a>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
 		</div>
 
 		<div id="sectionright">
-			<a href="http://www.lifeofbuffoon.cn/index/index.html">
-				<img src="2.png" alt="" style="height:150px;">
-			</a>
+		<table width="80%" height="80%" border="0" align="right">
+			<tr>
+				<td align="left">
+					<a href="http://www.lifeofbuffoon.cn/ppt/"><img src="images/ppt.png" width="60px" height="70px"/></a>
+				</td>
+				<td align="left">
+					<a href="http://www.lifeofbuffoon.cn/product/"><img src="images/product.png" width="60px" height="70px"/></a>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
 		</div>
-
+		
 		<div id="footer">
-			<a>Copyright @ Buffoon</a>
+			<a href="http://www.beian.miit.gov.cn/">京ICP备15061604号-1</a>
 		</div>
-
 	</body>
 
 </html>
