@@ -74,6 +74,11 @@ table {
   align-content: right;
 }
 
+span {
+  text-align: right;
+  font-size: 10px;
+}
+
 a.about {
   position: relative;
 }
